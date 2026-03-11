@@ -40,5 +40,5 @@ npm run dev
 
 ```bash
 cd cypress
-npm run run
+npm run dev
 ```
