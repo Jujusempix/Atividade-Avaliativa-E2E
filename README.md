@@ -36,7 +36,7 @@ cd FrontEnd
 npm run dev
 ```
 
-3. Em outro terminal, execute os testes E2E:
+4. Em outro terminal, execute os testes E2E:
 
 ```bash
 cd cypress
