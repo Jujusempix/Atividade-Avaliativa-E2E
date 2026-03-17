@@ -5,12 +5,16 @@ const app = express();
 const port = Number(process.env.PORT ?? 3001);
 
 app.use(express.json());
-app.use("/api", productRouter);
+app.use("/", productRouter);
 
-app.get("/health", (_request, response) => {
+app.get("/", (_request, response) => {
   response.json({ status: "ok" });
 });
 
-app.listen(port, () => {
-  console.log(`Backend running at http://localhost:${port}`);
-});
+if (process.env.NODE_ENV !== "test") {
+  app.listen(port, () => {
+    console.log(`Backend running at http://localhost:${port}`);
+  });
+}
+
+export { app };

@@ -40,5 +40,12 @@ npm run dev
 
 ```bash
 cd cypress
-npm run run
+npm run dev
+```
+
+3. Em outro terminal, execute os testes unitários:
+
+```bash
+cd Backend
+npm test
 ```
