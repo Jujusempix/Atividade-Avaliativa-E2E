@@ -36,14 +36,14 @@ cd FrontEnd
 npm run dev
 ```
 
-4. Em outro terminal, execute os testes E2E:
+3. Em outro terminal, execute os testes E2E:
 
 ```bash
 cd cypress
 npm run dev
 ```
 
-3. Em outro terminal, execute os testes unitários:
+4. Em outro terminal, execute os testes unitários:
 
 ```bash
 cd Backend
